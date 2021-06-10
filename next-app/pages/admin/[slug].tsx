@@ -1,7 +1,6 @@
+//import styles from '../../styles/Admin.module.css';
+import AuthCheck from "../../components/AuthCheck";
+
 export default function AdminDialogueEditPage({}) {
-    return (
-        <main>
-            Edit Dialogue
-        </main>
-    )
+  return <AuthCheck>Edit Dialogue</AuthCheck>;
 }
