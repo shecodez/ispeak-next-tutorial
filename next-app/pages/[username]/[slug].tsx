@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useDocumentData } from "react-firebase-hooks/firestore";
 import { useContext } from "react";
 
-import styles from "@styles/Dialogue.module.css";
+import styles from "../../styles/Dialogue.module.css";
 import AuthCheck from "../../components/AuthCheck";
 import DialoguePost from "../../components/DialoguePost";
 import HeartButton from "../../components/HeartButton";
